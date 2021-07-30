@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/*
+color letras:
+fussia #da0170 rgba(218,1,112,255)
+salmon #fa4a54 rgba(250,74,84,255)
+botones:
+#fd4c5c rgba(253,76,92,255)
+texto en negro:
+#363636 rgba(54,54,54,255)
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #363636;
+}
+
+.clear{
+    clear: both;
+}
+
+#general{
+    margin: 150px;
+}
+
+/*-------------------------------------------------HEADER---------------------------------------------------*/
+header{
+    background-image: url("../images/angel-jimenez.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 720px;
+}
+
+h1{
+    margin: 0 auto;
+    padding-top: 240px;
+    font-size: 150px;
+    width: 400px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/*-----------------------------------------------SECCION-1---------------------------------------------------*/
+
+h2{
+    font-size: 46px;
+}
+
+article p{
+    line-height: 30px;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.colors1{
+    background: linear-gradient(to right, #e94d55 , #da0170);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: 170px;
+}
+
+.section1 article{
+    width: 450px;
+    float: left;
+    margin-top: 70px;
+}
+
+.section1 img{
+    float: right;
+    width: 460px;
+
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.button a{
+    text-decoration: none;
+    background-color:#fd4c5c;
+    border-radius: 30px;
+    padding: 15px 50px;
+    color: #ffffff;
+    font-size: 15px;  
+}
+
+/*-----------------------------------------------SECCION-2---------------------------------------------------*/
+.section2{
+    margin-top: 150px;
+}
+
+.section2 article{
+    width: 450px;
+    float: right;
+    margin-top: 70px;
+}
+
+.section2 img{
+    float: left;
+    width: 460px; 
+}
+
+.colors2{
+    background: linear-gradient(to right, #e94d55 , #da0170);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: 205px;
+}
+
+/*-----------------------------------------------SECCION-3---------------------------------------------------*/
+
+.section3 {
+    background-image: url("../images/john-raptis.png");
+    background-size: cover;
+    height: 550px;  
+}
+
+.section3 article{
+    width: 450px;
+    float: right;
+    margin-top: 130px;
+    margin-right: 150px;
+    color: #ffffff;
+}
+
+/*-----------------------------------------------SECCION-4---------------------------------------------------*/
+
+footer{
+    height: 260px;   
+}
+
+.espacios{
+    padding:  40px 150px;
+    background: linear-gradient(to bottom right, #e94d55, #e94d55 , #cf237c);
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ffffff;
+}
+
+ul{
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    margin: 0 85px;
+    list-style: none;
+    margin-bottom: 50px;
+    
+}
+
+.raya{
+    border-bottom: 1px solid #ffffff; 
+}
+
+.titulo{   
+    line-height: 100px;   
+}
+
+div p{
+    margin-top: 30px;
+}
+
+.derechos{
+    float: left;
+}
+
+.correo{
+    float: right;
+}

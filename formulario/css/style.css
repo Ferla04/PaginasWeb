@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+body{
+	background:url("../images/patron.jpg") top right;
+	background-attachment:fixed;
+	font-family:arial, sans-serif;
+}
+
+header{
+	margin:0;
+	padding:20px;
+}
+
+header img{
+	float:left;
+}
+
+h1{
+	color:#FFA911;
+	text-shadow:2px 2px 2px #333;
+	float:left;
+	width:85%;
+	text-align:center;
+	margin-top:25px;
+}
+
+h1::first-letter{
+	font-size:80px;
+	color:red;
+}
+
+nav{
+	height:50px;
+	background-color:#FFA911;
+}
+
+nav ul{
+	line-height:50px;
+}
+
+nav ul li{
+	display:inline;
+
+}
+
+nav ul li a{
+	color:#000;
+	text-decoration:none;
+	background-color:#FFF;
+	padding:7px 14px;
+	margin:0 15px;
+	border-radius:8px;
+	box-shadow:2px 2px 2px #666;
+}
+
+nav ul li a:hover{
+	color:#FFF;
+	background-color:#000;
+}
+
+section{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	padding:20px;
+}
+
+h2{
+	color:#FFA911;
+}
+
+p{
+	color:#000;
+	text-align:justify;
+}
+
+aside{
+	background-color:#FFA911;
+	float:left;
+	width:30%;
+	box-sizing:border-box;
+}
+
+aside img{
+	width:80%;
+	padding:20px 10% 0;
+}
+
+aside p{
+	text-align:center;
+	padding:0 15px;
+}
+
+footer{
+	text-align: center;
+	padding:20px;
+	background-color:#FFA911;
+	font-size:12px;
+}
+
+form label{
+	margin-right: 50px;
+	font-size:12px;
+}
+
+input[type=email], input[type=text], input[type=number] {
+	width:450px;
+	border:none;
+	border-bottom:1px solid #CCC; 
+}
+
+input[type=submit]{
+	width:450px;
+	height:50px;
+	background-color:green;
+	border-radius:20px;
+	border:none;
+}
+input[type=submit]:hover{
+	background-color:red;
+	cursor:pointer;
+}
+
+input:focus, textarea:focus{
+	background-color:yellow;
+}
+ 
+
+/* Identificadores */
+
+#apellido{
+	width:450px;	
+}
+
+#principal{
+	background-color:#FFFFFF;
+	width:1024px;
+	margin:0 auto;
+	padding:0;
+	border:1px solid #000;
+}
+
+#portada img{
+	width:50%;
+	float:left;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+#secundaria{
+	float:left;
+	width:70%;
+	box-sizing:border-box;
+	background-color:#F8F8F8;
+}
+
+#secundaria h2{
+	margin-top:0;
+}
+
+#secundaria div{
+	text-align:center;
+}
+
+
+/* Clases */
+.clear{
+	clear:both;
+}
+
+.letraG{
+	font-size:80px;
+	color:red;
+}

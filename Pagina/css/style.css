@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Parisienne&family=Satisfy&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+/*--------------------------------------------HEADER-----------------------------------------*/
+header{
+    border-bottom: 5px solid #ffb826;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 80%;
+    margin: auto;
+}
+
+.encabezado > div{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado > div img{
+    width: 60px;
+}
+
+.encabezado h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 45px;
+    font-weight:lighter;
+}
+
+nav{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #c9c2b9;
+}
+
+span{
+    color: #ffb826
+}
+
+/*------------------------------------------SECTION-1-----------------------------------------*/
+
+.section1{
+    background: url(../images/fondo.jpeg);
+    background-size:auto;
+    background-position: 0px 45%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.section1 h1{
+    font-size:50px;
+}
+
+.section1 p{
+    margin-top: 20px;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*------------------------------------------SECTION-2-----------------------------------------*/
+.section2{
+    height: 60px;
+    padding: 0px 140px;
+    background-color: #504d4a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.correo{
+    height: 30px;
+    width: 250px;
+}
+
+.CButton{
+    padding: auto;
+    background-color:#ffb826;
+    padding: 9px 20px;
+    font-size: small;
+    border:1px solid #ffb826;
+    border-radius: 5px;
+    transition:  background-color 1s ;
+}
+
+.CButton:hover{
+    background-color: #504d4a;
+    color: white ;
+}
+
+
+/*------------------------------------------SECTION-3-----------------------------------------*/
+.proceso{padding-left: 150px; padding-top: 30px;}
+
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section3 div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 img{width: 300px; border-radius:5px;}
+.section3 h4{margin: 20px 0px;}
+.section3 p{text-align: center; font-size: 15px;}
+
+footer{
+    background-color: #96551d;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

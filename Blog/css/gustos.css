@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1ca89;
+    font-family: 'Lato', sans-serif;    
+}
+
+#principal{
+    margin: 30px auto;
+    width: 900px;
+}
+
+.clear{
+    clear: both;
+}
+
+.general{
+    padding: 30px;
+}
+
+
+/*----------------------------------------HEADER---------------------------------------------- */
+.encabezado{
+    height: 180px;
+}
+
+header{
+    float: left;
+}
+
+header img{
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
+h1{
+   float: left;
+   padding: 5px 0 0 0;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 55px;
+}
+
+/*----------------------------------------NAV---------------------------------------------- */
+nav{
+    float: right;
+    padding: 55px 0 0 0 ;
+}
+
+.ButtonsMenu{
+    display: inline;
+    margin: 10px;     
+}
+
+.ButtonsMenu a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px dashed black;
+    border-radius: 15px 50px;
+    color: black;
+    background-color: #c8c2bc;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.192);
+}
+
+.ButtonsMenu a:hover{
+    border: 2px dashed #575554;
+    border-radius: 15px 50px;
+    color: #c8c2bc;
+    background-color: #575554;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+/*-------------------------------------SECCION---------------------------------------------- */
+
+h2{
+    background-color: #cc9b6d;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.floatObjects{
+    margin: 0 100px;
+}
+
+.floatObjects img{
+    float: left;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 7px rgba(0, 0, 0, 0.192);
+}
+
+.floatObjects p{
+    float: right;
+    width: 350px;
+    background-color:#575554;
+    padding: 10px;
+    border-radius: 5px;
+    color: #c8c2bc;
+}
+
+/*----------------------------------------FOOTER---------------------------------------------- */
+footer{
+    background-color: #c8c2bc ;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+footer p{
+    float: left;
+}
+
+.Apps a img{
+    width: 30px; 
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.Apps{
+    float: right;
+}

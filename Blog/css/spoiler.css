@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1ca89;
+    font-family: 'Lato', sans-serif;
+}
+
+#principal{
+    margin: 30px auto;
+    width: 900px;
+}
+
+.clear{
+    clear: both;
+}
+
+.general{
+    padding: 30px;
+}
+
+/*----------------------------------------HEADER---------------------------------------------- */
+.encabezado{
+    height: 180px;
+}
+
+header{
+    margin: 0 auto;
+    width: 300px ;
+}
+
+.logo{
+    margin: auto;
+    width: 150px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+h1{
+   padding: 5px 0 0 0;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 55px; 
+   margin:  0;
+   text-align: center; 
+}
+
+/*-------------------------------------SECCION---------------------------------------------- */
+h2{
+    background-color: #cc9b6d;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.back{
+    margin: 30px 0 0 25px;
+}
+
+.back a{
+    padding: 5px;
+    border: 2px solid #575554;
+    text-align: center;
+    color: #575554;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    
+}
+
+.back a:hover{
+    color:#575554;
+    background: #cc9b6d;
+    border: 2px solid #cc9b6d;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+}

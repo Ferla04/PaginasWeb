@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bicicletas El Dorado</title>
+</head>
+<body>
+    <div id="principal">
+        <header>
+   			<img src="images/logo.png" alt="Logo empresa" />
+            <h1>Bicicletas El Dorado</h1>
+            <div class="clear"></div>
+        </header>
+        <nav>
+            <ul>
+        		<li><a href="index.html">Inicio</a></li>
+        		<li><a href="bicicletas.html">Bicicletas</a></li>
+        		<li><a href="accesorios.html">Accesorios</a></li>
+            	<li><a href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+        <!-- ------------------------------------------------------------------------ -->
+        <section>
+        	<h2><span class="letraG">B</span>ievenidos</h2>
+        	<div id="portada">
+            	<img src="images\portada.jpg" alt="foto del almacen" />
+            	<img src="images\portada2.jpg" alt="foto del almacen" />
+            	<div class="clear"></div>
+        	</div>
+        	<br>
+        	<div>
+        		<form>
+        			<h3>Formulario</h3>
+        			<label for="nombre">Nombre: </label> 			<!-- Etiqueta -->
+        			<input type="text" name="name" id="nombre" required> 	<!-- Campo de Texto -->
+        			<br>
+        			<label for="apellido">Apellido: </label><br>
+        			<input type="text" name="prename" id="apellido" placeholder="Escriba aquí su apellido" required>
+        			<br>
+        			<label for="contraseña">Contraseña: </label>
+        			<input type="password" name="password" id="contraseña" placeholder="Al menos 8 caracteres" required>
+        			<br>
+        			<label for="edad">Edad: </label>
+        			<input type="number" name="age" id="edad" placeholder="Edad" required>
+        			<br>
+					<label for="correo">Correo electrónico: </label>
+        			<input type="email" name="email" id="correo" required>
+        			<br>
+        			<label for="telefono">Teléfono: </label>
+        			<input type="tel" name="phone" id="telefono" required>
+        			<br>
+        			<label for="fecha">Cumpleaños: </label>
+        			<input type="date" name="date" id="fecha" required>
+        			<br>
+        			<input type="checkbox" name="pc" id="PC">
+        			<label for="PC">PC</label>
+        			<input type="checkbox" name="celphone" id="Cel">
+        			<label for="Cel">Celular</label>
+        			<br>
+        			<input type="radio" name="gen" id="Masculino" required>
+        			<label for="Masculino">Masculino</label>
+        			<input type="radio" name="gen" id="Femenino">
+        			<label for="Femenino">Femenino</label>
+        			<input type="radio" name="gen" id="Otro">
+        			<label for="Otro">Otro</label>
+        			<br>
+        			<group>
+        			<select name="ciudad">
+        				<option value="armenia">Armenia</option>
+        				<option value="pereira">Pereira</option>
+        				<option value="manizales">Manizales</option>
+        			</select>
+        			<br>
+        			<fieldset>
+        				<legend align="right">Datos personales</legend>
+						Elemento de formulario: <input type="text" name="elemento1">
+						<br>
+						Otro elemento: <input type="text" name="otro">
+					</fieldset>
+
+        			<br>
+        			<label for="texto">Escriba su mensaje: </label>
+        			<br>
+        			<textarea rows="10" cols="30" id="texto"></textarea>
+        			<br>
+        			<input type="submit" value="Enviar">
+        		</form>
+        	</div>
+        </section>
+        <!-- ------------------------------------------------------------------------ -->
+        <footer>Página Web realizada por Henry Falla. Todos los derechos reservados. 2021</footer>
+    </div>
+</body>
+</html>

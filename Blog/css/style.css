@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1ca89;
+    font-family: 'Lato', sans-serif; 
+}
+
+#principal{
+    margin: 30px auto;
+    width: 900px;
+}
+
+.clear{
+    clear: both;
+}
+
+.general{
+    padding: 0 30px;
+}
+
+
+/*----------------------------------------HEADER---------------------------------------------- */
+.encabezado{
+    height: 180px;
+}
+
+header{
+    float: left;
+}
+
+header img{
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
+h1{
+   float: left;
+   padding: 5px 0 0 0;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 55px;
+}
+
+/*----------------------------------------NAV---------------------------------------------- */
+nav{
+    float: right;
+    padding: 55px 0 0 0 ;
+}
+
+.ButtonsMenu{
+    display: inline;
+    margin: 10px;     
+}
+ 
+.ButtonsMenu a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px dashed black;
+    border-radius: 15px 50px;
+    color: black;
+    background-color: #c8c2bc;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.192);
+}
+
+.ButtonsMenu a:hover{
+    border: 2px dashed #575554;
+    border-radius: 15px 50px;
+    color: #c8c2bc;
+    background-color: #575554;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*----------------------------------------SECCION 1---------------------------------------------- */
+.information{
+    width: 450px;
+    float: left;
+}
+
+.Title2{
+    background-color: #cc9b6d;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.imageFer img{
+    width: 320px;
+    margin-top: 20px;
+    border: 2px dashed black;
+    float: right;
+    border-radius: 5px; 
+}
+
+/*----------------------------------------SECCION 2---------------------------------------------- */
+
+.containerGraduation{
+    margin-top: 50px;
+}
+
+.TxtGraduation{
+    width: 300px;
+    float: right;
+    background-color: #575554 ;
+    padding: 0 10px;
+    border-radius: 5px;   
+}
+
+.TxtGraduation p{
+    padding: 20px;
+    color: #c8c2bc;
+}
+
+.imageGraduation img{
+    width: 400px;
+    float: left;
+    padding-left: 50px; 
+}
+
+.others{
+    padding:  30px 110px;
+    float: left;
+}
+
+.others a{
+    padding: 5px;
+    border: 2px solid #575554;
+    text-align: center;
+    color: #575554;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px; 
+}
+
+.others a:hover{
+    color:#575554;
+    background: #cc9b6d;
+    border: 2px solid #cc9b6d;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+    
+}
+
+/*----------------------------------------FOOTER---------------------------------------------- */
+footer{
+    background-color: #c8c2bc ;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+footer p{
+    float: left;     
+}
+
+.Apps a img{
+    width: 30px; 
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.Apps{
+    float: right;
+}
+
+
+
